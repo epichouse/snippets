@@ -1,3 +1,5 @@
+# RSYNC Commands
+
 # Copy Contents of a folder into a folder on another server, without deleting files in destination that are not in source
 
 rsync -avh --no-perms -e ssh /home/dan/testfolder/ dan@vm-nginx-test-01:/home/dan/testfolder
