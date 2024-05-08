@@ -1,0 +1,30 @@
+//KQL App Gateway Examples
+
+//Last 30 Days
+AzureDiagnostics 
+| where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayFirewallLog" and hostname_s == "devapi.dsgfs.com" and TimeGenerated between (ago(30d) .. now() )
+| project TimeGenerated, hostname_s, requestUri_s, Message, ruleId_s, clientIp_s, policyScopeName_s
+| take 500
+| sort by TimeGenerated desc
+
+//Global Blocked in last hour
+AzureDiagnostics 
+| where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayFirewallLog" and TimeGenerated between (ago(1h) .. now() ) and (action_s == "Blocked" or action_s == "Matched")
+| project TimeGenerated, hostname_s, requestUri_s, Message, ruleId_s, clientIp_s, policyScopeName_s
+| sort by TimeGenerated desc
+
+//Global Blocked in last 5 mins
+AzureDiagnostics 
+| where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayFirewallLog" and TimeGenerated between (ago(5m) .. now() ) and (action_s == "Blocked" or action_s == "Matched")
+| project TimeGenerated, hostname_s, requestUri_s, Message, ruleId_s, clientIp_s, policyScopeName_s
+| sort by TimeGenerated desc
+
+//Global Blocked in last day
+AzureDiagnostics 
+| where ResourceProvider == "MICROSOFT.NETWORK" and Category == "ApplicationGatewayFirewallLog" and TimeGenerated between (ago(24h) .. now() ) and action_s == "Blocked"
+| project TimeGenerated, hostname_s, requestUri_s, Message, ruleId_s, clientIp_s, policyScopeName_s
+| sort by TimeGenerated desc
+
+
+
+//The above also need to include matched.
