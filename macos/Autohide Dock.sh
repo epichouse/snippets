@@ -1,0 +1,1 @@
+# The command below configures MacOS dock autohide to my liking
