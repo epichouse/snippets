@@ -1,3 +1,5 @@
+# Using the commands below you can create powershell background jobs that are PS session persistent, closing powershell will remove these jobs
+
 # Get Current Running Background PS Jobs
 Get-Job
 
