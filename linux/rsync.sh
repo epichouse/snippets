@@ -21,3 +21,7 @@ rsync -avh --no-perms -e ssh /home/dan/testfolder dan@vm-nginx-test-01:/home/dan
 # Copy folder into a folder on another server, with deleting files in destination that are not in source (notice the slash missing)
 
 rsync -avh --no-perms -e ssh /home/dan/testfolder dan@vm-nginx-test-01:/home/dan/testfolder --delete
+
+
+#Copy local file with progress (THIS IS SWEEEEET)
+rsync --progress /path/to/source-file /path/to/destination
