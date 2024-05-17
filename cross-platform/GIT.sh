@@ -1,3 +1,5 @@
+# Git Command Examples
+
 # Bare clones can be used to restore/migrate GIT repositories.
 
 # Create a local bare copy of a repository. (snippets in this case)
