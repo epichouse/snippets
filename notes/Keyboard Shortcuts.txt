@@ -7,6 +7,8 @@ VS Code:
 Ctrl + K then W -- Close all tabs
 Ctrl + Shift + E -- Explorer
 Ctrl + Shift + G -- Source Control
+Ctrl + J -- Hide Terminal Pane
+Ctrl + Shift + ' -- Open Terminal Pane
 
 Display Fusion (Custom)
 Alt + Shift + S -- Swap top windows on dual displays
