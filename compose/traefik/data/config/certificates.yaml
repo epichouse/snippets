@@ -1,0 +1,10 @@
+tls:
+  certificates:
+        - certFile: /certs/certs/internal.epichouse.co.uk.crt
+          keyFile: /certs/private/internal.epichouse.co.uk.key
+
+  stores:
+    default:
+      defaultCertificate:
+        certFile: /certs/certs/internal.epichouse.co.uk.crt
+        keyFile: /certs/private/internal.epichouse.co.uk.key

@@ -1,0 +1,57 @@
+version: "3"
+networks:
+  backend: null
+  frontend:
+    external: true
+    name: app-traefik-${ENV}_backend
+
+services:
+  unifi:
+    user: root
+    image: lscr.io/linuxserver/unifi-network-application:latest
+    environment:
+      - PUID=0
+      - PGID=121
+      - MONGO_USER=unifi
+      - MONGO_PASS=${DBPASS}
+      - MONGO_HOST=unifi-db
+      - MONGO_PORT=27017
+      - MONGO_DBNAME=unifi
+    volumes:
+      - ./data/web:/config
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.unifi.rule=Host(`unifi.${ENV}.epichouse.co.uk`,`unifi.epichouse.co.uk`)
+      - traefik.http.routers.unifi.entrypoints=websecure
+      - traefik.http.services.unifi.loadbalancer.server.port=8443
+      - traefik.http.routers.unifi.tls=true
+      - traefik.http.services.unifi.loadbalancer.server.scheme=https
+      - traefik.docker.network=app-traefik-${ENV}_backend
+      - traefik.http.routers.unifi.tls.certresolver=letsencrypt
+      - traefik.http.routers.unifi.tls.domains[0].main=${ENV}.epichouse.co.uk
+      - traefik.http.routers.unifi.tls.domains[0].sans=*.${ENV}.epichouse.co.uk
+    ports:
+      - 8443:8443
+      - 3478:3478/udp
+      - 10001:10001/udp
+      - 8080:8080
+      - 1900:1900/udp #optional
+      - 8843:8843 #optional
+      - 8880:8880 #optional
+      - 6789:6789 #optional
+      - 5514:5514/udp #optional
+    depends_on:
+      - unifi-db
+    networks:
+      - backend
+      - frontend
+  unifi-db:
+    user: root
+    image: docker.io/mongo:7.0.8-rc0-jammy
+    volumes:
+      - ./data/db:/data/db
+#      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    restart: unless-stopped
+    networks:
+      - backend
