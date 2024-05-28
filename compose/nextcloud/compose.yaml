@@ -1,0 +1,90 @@
+version: "3"
+networks:
+  backend: null
+  frontend:
+    external: true
+    name: app-traefik-${ENV}_backend
+  smtp:
+    external: true
+    name: app-smtp-${ENV}_backend
+services:
+  nextcloud-web:
+    image: lscr.io/linuxserver/nextcloud:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - OVERWRITEPROTOCOL=https
+      - OVERWRITECLIURL='https://nextcloud.epichouse.co.uk'
+    volumes:
+      - ./data/web/config:/config
+      - ./data/web/data:/data
+    labels:
+      - traefik.enable=true
+      - traefik.backend=frontend
+      - traefik.docker.network=app-traefik-${ENV}_backend
+      - traefik.http.routers.nextcloud-web.rule=Host(`nextcloud.${ENV}.epichouse.co.uk`,`nextcloud.epichouse.co.uk`)
+      - traefik.http.routers.nextcloud-web.entrypoints=websecure
+      - traefik.http.services.nextcloud-web.loadbalancer.server.port=80
+      - traefik.http.routers.nextcloud-web.tls=true
+      - traefik.http.routers.nextcloud-web.tls.certresolver=letsencrypt
+      - traefik.http.routers.nextcloud-web.tls.domains[0].main=${ENV}.epichouse.co.uk
+      - traefik.http.routers.nextcloud-web.tls.domains[0].sans=*.${ENV}.epichouse.co.uk
+    restart: unless-stopped
+    networks:
+      - frontend
+      - backend
+      - smtp
+    depends_on:
+      - nextcloud-db
+  nextcloud-docs:
+    image: collabora/code
+    environment:
+      - PUID=1000
+      - PGID=1000
+    labels:
+      - traefik.enable=true
+      - traefik.backend=frontend
+      - traefik.docker.network=app-traefik-${ENV}_backend
+      - traefik.http.routers.nextcloud-docs.rule=Host(`nextcloud-docs.${ENV}.epichouse.co.uk`,`nextcloud-docs.epichouse.co.uk`)
+      - traefik.http.routers.nextcloud-docs.entrypoints=websecure
+      - traefik.http.services.nextcloud-docs.loadbalancer.server.port=9980
+      - traefik.http.services.nextcloud-docs.loadbalancer.server.scheme=https
+      - traefik.http.routers.nextcloud-docs.tls=true
+      - traefik.http.routers.nextcloud-docs.tls.certresolver=letsencrypt
+      - traefik.http.routers.nextcloud-docs.tls.domains[0].main=${ENV}.epichouse.co.uk
+      - traefik.http.routers.nextcloud-docs.tls.domains[0].sans=*.${ENV}.epichouse.co.uk
+    restart: unless-stopped
+    networks:
+      - frontend
+  nextcloud-drawio:
+    image: jgraph/drawio
+    labels:
+      - traefik.enable=true
+      - traefik.backend=frontend
+      - traefik.docker.network=app-traefik-${ENV}_backend
+      - traefik.http.routers.nextcloud-drawio.rule=Host(`nextcloud-drawio.${ENV}.epichouse.co.uk`,`nextcloud-drawio.epichouse.co.uk`)
+      - traefik.http.routers.nextcloud-drawio.entrypoints=websecure
+      - traefik.http.services.nextcloud-drawio.loadbalancer.server.port=8080
+      - traefik.http.services.nextcloud-drawio.loadbalancer.server.scheme=http
+      - traefik.http.routers.nextcloud-drawio.tls=true
+      - traefik.http.routers.nextcloud-drawio.tls.certresolver=letsencrypt
+      - traefik.http.routers.nextcloud-drawio.tls.domains[0].main=${ENV}.epichouse.co.uk
+      - traefik.http.routers.nextcloud-drawio.tls.domains[0].sans=*.${ENV}.epichouse.co.uk
+    restart: unless-stopped
+    networks:
+      - frontend
+  nextcloud-db:
+    image: mysql
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_ROOT_PASSWORD=${MySQL_Password}
+    volumes:
+      - ./data/db:/var/lib/mysql
+    restart: unless-stopped
+    ports:
+      - 33069:3306
+    networks:
+      - backend

@@ -1,0 +1,52 @@
+version: '3'
+networks:
+  backend: null
+
+services:
+  traefik:
+    user: root
+    image: traefik:latest
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - AZURE_CLIENT_ID=${AZURE_CLIENT_ID}
+      - AZURE_TENANT_ID=${AZURE_TENANT_ID}
+      - AZURE_CLIENT_SECRET=${AZURE_CLIENT_SECRET}
+      - AZURE_SUBSCRIPTION_ID=${AZURE_SUBSCRIPTION_ID}
+      - AZURE_RESOURCE_GROUP=${AZURE_RESOURCE_GROUP}
+      - AZURE_PROPAGATION_TIMEOUT=3600
+      - AZURE_POLLING_INTERVAL=30
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--serverstransport.insecureskipverify=true"
+      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+      - "--certificatesresolvers.letsencrypt.acme.dnschallenge=true"
+      - "--certificatesResolvers.letsencrypt.acme.dnschallenge.provider=azuredns"
+    #  - "--certificatesresolvers.letsencrypt.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+      - "--certificatesresolvers.letsencrypt.acme.email=danshaw509@gmail.com"
+    dns:
+      - 1.1.1.1
+    labels:
+      - traefik.enable=true
+      - traefik.backend=frontend
+      - traefik.docker.network=app-traefik-${ENV}_backend
+      - traefik.http.routers.traefik.rule=Host(`traefik.${ENV}.epichouse.co.uk`)
+      - traefik.http.routers.traefik.entrypoints=websecure
+      - traefik.http.services.traefik.loadbalancer.server.port=8080
+      - traefik.http.routers.traefik.tls=true
+      - "traefik.http.routers.traefik.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.traefik.tls.domains[0].main=${ENV}.epichouse.co.uk"
+      - "traefik.http.routers.traefik.tls.domains[0].sans=*.${ENV}.epichouse.co.uk"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./data/letsencrypt:/letsencrypt
+    networks:
+      - backend
