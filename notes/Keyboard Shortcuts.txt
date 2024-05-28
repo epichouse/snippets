@@ -9,6 +9,9 @@ Ctrl + Shift + E -- Explorer
 Ctrl + Shift + G -- Source Control
 Ctrl + J -- Hide Terminal Pane
 Ctrl + Shift + ' -- Open Terminal Pane
+Ctrl + Shift + V -- Open HTML Preview in new tab
+Ctrl + K V -- Open HTML Preview to the Side
+
 
 Display Fusion (Custom)
 Alt + Shift + S -- Swap top windows on dual displays
