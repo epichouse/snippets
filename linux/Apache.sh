@@ -1,13 +1,13 @@
 # Apache Commands
 
-## View all vhosts
+# View all vhosts
 sudo apache2ctl -S
 
-## Config Test
+# Config Test
 sudo apache2ctl configtest
 
-## Enable Site
+# Enable Site
 sudo a2ensite website.conf
 
-## Disable Site
+# Disable Site
 sudo a2dissite website.conf
