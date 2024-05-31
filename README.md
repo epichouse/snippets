@@ -1,7 +1,13 @@
 # Snippets
 
-This repository contains my snippets of code and frequently used commands and notes.\
-This repository is frequently updated with new commands and script blocks.\
+This repository is at the center of my HomeLab and other technology projects and work.\
 \
-Commands that relate to a specific operating system only can be found in operation system specific directories.\
-Commands that relate to a cross platform application/tool can be found in the linux directory unless they are primarily used on Windows.\
+Contained within this repo you will find the following:
+- Various common notes and keyboard shortcuts
+- My todo-txt Tasks list and archive
+- My Home Network IP Address Management
+- Code/Command examples for a wide range of scripting languages
+
+
+\
+This repository is frequently updated when tasks are completed, in addition to frequent additions to the directories containing commands and code.
