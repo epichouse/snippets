@@ -1,6 +1,5 @@
 # Docker Inventory
-- This text file contains a simple inventory of all of my docker based services
-
+This file contains a simple inventory of all of my docker based services.
 # Backend Services
 - Traefik (Prod + Test)
 - Cloudflared (Prod + Test)
