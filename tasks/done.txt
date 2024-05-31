@@ -148,3 +148,5 @@ x 2024-05-30 ! Test
 x 2024-05-30 ! GT omega chair
 x 2024-05-30 ! Document the fking awesome web deployment workflows
 x 2024-05-30 ! Test Task
+x 2024-05-31 ! Create new Server 2022 Image
+x 2024-05-31 ! Determine if OneDrive or GIT is the best place for todo
