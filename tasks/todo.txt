@@ -8,7 +8,7 @@
 ! Implement a Terraform Pipeline in Gitea Actions @inprogress
 ! Implement Terraform Deployable AZ S2S VPN
 ! More techy tik toks (Gaming Setup Advancements + Todo.txt)
-! Configure test NextCloud Instace (Docs + AAD SSO)
+! Configure test NextCloud Instace (Docs + AAD SSO) @inprogress
 ! Implement a basic K3S setup @inprogress
 ! Deploy a new Windows Lab Environment using server 2022
 ! Find tech stores to visit (Manchester Based)
