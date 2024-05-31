@@ -1,7 +1,7 @@
 # Apache Commands
 
 ## View all vhosts
-> sudo apache2ctl -S
+`sudo apache2ctl -S`
 
 ## Config Test
 sudo apache2ctl configtest
