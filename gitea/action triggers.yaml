@@ -1,9 +1,0 @@
-on:
-  push:
-    branches:
-      - 'development'
-
-on:
-  push:
-    paths:
-      - images/epichouse.web/**
