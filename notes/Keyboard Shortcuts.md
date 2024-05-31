@@ -1,7 +1,7 @@
-# Microsoft Edge
-Ctrl + Shift + T -- Reopen closed tab/windows
-Ctrl + Shift + K -- Duplicate current tab
-Alt + Shift + D -- Enable Dark Reader
+# Microsoft Edge  
+Ctrl + Shift + T -- Reopen closed tab/windows  
+Ctrl + Shift + K -- Duplicate current tab  
+Alt + Shift + D -- Enable Dark Reader  
 
 VS Code:
 Ctrl + K then W -- Close all tabs
