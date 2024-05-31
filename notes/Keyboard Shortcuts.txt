@@ -14,6 +14,7 @@ Ctrl + K V -- Open HTML Preview to the Side
 Ctrl + Shift + P -- Show Command Selector
 Ctrl + Shift + X -- Complete todo.txt task
 Ctrl + Shift + A -- Archive completed todo.txt tasks
+Ctrl + V -- Hide SideBar
 
 Display Fusion (Custom)
 Alt + Shift + S -- Swap top windows on dual displays
