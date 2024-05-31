@@ -1,9 +1,9 @@
 -----------------------------------------------------------------------------------
 | Dan's Tasks                            | Ctrl + Shift + A -- Archive Tasks      |
 | New Tasks First                        | Ctrl + Shift + X -- Complete Task      |
+|                                        | Ctrl + Shift + Q -- Auto Commit Msg
 -----------------------------------------------------------------------------------
 
-! Testing
 ! Document use of todo-txt and storage via git
 ! Cut down larger peice of wood for side table and wrap it
 ! Implement a Terraform Pipeline in Gitea Actions @inprogress
