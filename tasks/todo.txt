@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------
 
 x 2024-05-31 ! Create new Server 2022 Image
-! Determine if OneDrive or GIT is the best place for todo
+x 2024-05-31 ! Determine if OneDrive or GIT is the best place for todo
 ! Cut down larger peice of wood for side table and wrap it
 ! Implement a Terraform Pipeline in Gitea Actions @inprogress
 ! Implement Terraform Deployable AZ S2S VPN
