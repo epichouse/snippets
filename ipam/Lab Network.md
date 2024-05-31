@@ -1,16 +1,16 @@
-(Lab Network)
+# Lab Network IP Addressing
 
-Static IP Addresses:
-10.0.4.1    --  unifi-usg
+## Static IP Addresses:  
+10.0.4.1    --  unifi-usg  
 10.0.4.2    --  
 10.0.4.3    --  
 10.0.4.4    --  
-10.0.4.5    --  vm-nas-prod-01
-10.0.4.6    --  vm-app-test-01
-10.0.4.7    --  vm-ub-test-01
-10.0.4.8    --  vm-w11-test-01
-10.0.4.9    --  vm-w11-test-02
-10.0.4.10   --  vm-web-test-01
+10.0.4.5    --  vm-nas-prod-01  
+10.0.4.6    --  vm-app-test-01  
+10.0.4.7    --  vm-ub-test-01  
+10.0.4.8    --  vm-w11-test-01  
+10.0.4.9    --  vm-w11-test-02  
+10.0.4.10   --  vm-web-test-01  
 10.0.4.11   --  
 10.0.4.12   --  
 10.0.4.13   --  
@@ -30,4 +30,4 @@ Static IP Addresses:
 10.0.4.27   --
 10.0.4.28   --
 
-10.0.4.81   --  vm-pve-test-01
+10.0.4.81   --  vm-pve-test-01  
