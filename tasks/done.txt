@@ -1,0 +1,150 @@
+------------------------------------------------------------------------------------
+| Archived Completed Tasks
+------------------------------------------------------------------------------------
+
+x ! Migrate Documents, Desktop and Docs to OneDrive
+x ! Decide on document storage in OneDrive
+x ! Finish configuring new NextCloud Instance
+x ! Decomission self hosted version of drawio
+x ! Find optimal Offline Files configuration to facilitate working remotely without internet, and for  shares to work as expected when connected via vpn
+x ! Implement UptimeRobot Monitoring of all Public Services
+x ! Look at uptime robot free tier
+x ! Put Thinkpad and Macbook away, move HackMini to it's new home behind screens
+x ! Change BIND Zone file names to .zone file extension for automatic recognition of format
+x ! Reinstall HackMini with Sonoma in working fashon in prep for RX460
+x ! Docker Application Update Changes
+x ! Organise Powershell Repository into Directories
+x ! Document GIT Repo strategy in misc documentation
+x ! Add kql + powershell repo's to cloud sync backup task for GIT
+x ! Migrate Powershell and Batch scripts into my new Powershell GIT Repository
+x ! Come up with some better bash script names
+x ! Try to revive the new MBP battery or remove the one from the old chasis (To allow use and/or sale)
+x ! Document Files Web Service
+x ! Redocument Epichouse Public Website
+x ! Implement a self hosted notes solution
+x ! Try Sonoma with OCLP again using Imac Pro SMBIOS
+x ! Document Qbittorrent
+x ! Document HomePage
+x ! Pre create eBay listing for X1 Carbon
+x ! Create a simple script to verify all RSnapshot Backups latest completion dates
+x ! Deploy qBittorrent for remote headless downloads
+x ! Migrate back to Apple Notes for now
+x ! Deploy a new Azure Static Web Apps Project
+x ! Deploy a simple HomePage Dashboard
+x ! Find a consistent icon set for GIT Repo Avatars
+x ! Investigate Application Data Cloud Sync Failure
+x ! Document mounting NFS + SMB Shares via fstab in Solutions
+x ! Create a script for deploying a Test MySQL Instance on vm-app-test-01
+x ! Investigate alternatives to NextCloud for Productivity Suite (external use only)
+x ! Migrate all bash tips and tricks into scripts repo instead of wiki
+x ! Make cloud-init fixes on remaining VM's
+x ! Document all of my Ubuntu Server Template Config/Modifications
+x ! Move PVE Get scripts into directory to match new
+x ! Ubuntu Server Template Changes
+x ! Exclude .sock files from RSnapshot Backups
+x ! Find a solution to the ever changing SSH Host Keys on servers
+x ! Quick solution for adding tasks here from my phone (Browser is fine)
+x ! Bring the epichouse.co.uk website back in house and give it a rebrand
+x ! Update srv-backup-prod to TrueNAS 24.04
+x ! Update srv-pve-prod-01 to Proxmox 8.2
+x ! Find suitable solution to high memory usage on vm-app-prod-01
+x ! Get Vikunja Mobile Tasks Working
+x ! Add Passbolt and Vikunja to Uptime Kuma
+x ! Add Passbolt and Vikunja MySQL Instances to Uptime Kuma
+x ! Redocument Passbolt
+x ! Reinstate PassBolt
+x ! Implement Security on Public Vikunja Service
+x ! Document Vikunja
+x ! Create Python Task Management Tool
+x ! Cloudflare Zero trust as a CORS provider for Nextcloud web services
+x ! Revert Nextcloud to non Beta image and pick static version
+x ! Configure and play with Log shipping on my two MSSQL on Linux Servers
+x ! Make a word doc surrounding my MSSQL on Linux playing around
+x ! Setup MSSQL Replication from vm-mssql-test-01 to vm-mssql-test-02
+x ! Setup Entra ID Authentication for vm-mssql-test-01
+x ! Document Plex Media Server
+x ! Deploy a second Plex instance for all of personal media 
+x ! Create epichouse.snake repository and decomission Docker repository
+x ! Create Snippets for Gitea Actions
+x ! Finalise dev/production build/deployment of epichouse website
+x ! Deploy a dedicated build server not using Docker
+x ! Build a better webcam mount
+x ! Document Dozzle for Docker logging/dashboard
+x ! Stop commit stage of mark as execute when no files in add stage
+x ! Enable sleep on iMac + Desktop PC
+x ! Resolve gitea action networking issues allowing removal of dedicated server
+x ! Create Gitea action allowing build/push of epichouse image manually
+x ! Create Gitea action to automatically mark all scripts as executable on push
+x ! Download films on laptop + 8+
+x ! Install MacOS Catalina on the 09 MacBook
+x ! Old Peripherals Clear Out
+x ! Tidy Cables
+x ! Update Powershell SSL Creation Script
+x ! Tidy up Certificates Store
+x ! Practice restoring git bare repositories and remove file level backup job
+x ! Get a fully featured copy of various creative apps on iMac
+x ! Upgrade iMac to 16GB Ram
+x ! Implement Bare GIT Backup/Restore Process
+x ! DHCP Reservation + DNS Record for Dan-iMac
+x ! Geekbench the iMac vs Mac Mini
+x ! Deprovision DMZ, ensuring all public services are secured via Cloudflare Access
+x ! Make a page of inspirational quotes on Notion
+x ! Add MSSQL Backup+Restore command examples to Snippets Repository
+x ! Remove all notes from OneNote and tasks from to-do
+x ! Migrate IPAM Sheets into Notion
+x ! See if Notion can replace IPAM Spreadsheet
+x ! Add Notion to HomePage + Remove OneNote and To Do
+x ! Cleanup HomePage, removing unused services and add M365 Services
+x ! See if Power Automate is included in M365
+x ! Provision new instance of file manager
+x ! Decomission NextCloud and reinstate FileBrowser
+x ! Migrate back to Cloudflare Tunnels
+x ! Commit GIT Changes to scripts + Powershell on laptop from flight
+x ! Migrate VS Code Workspaces to OneDrive
+x ! Get the HackMini Working
+x ! DHCP Reservation for HackMini
+x ! Implement s snippets type tool
+x ! COnfigure backups/replication of new snippets repo
+x ! Add Rsync commands to snippets repo
+x ! Remove HTTPS Port Forwarding
+x ! Document Cloudflare Tunnels
+x ! Install LEDs behind ultrawide
+x ! Implement a backup of my OneDrive on srv-backup-prod-01
+x ! Deprovision vm-nginx-prod-01
+x ! Reduce vm-app-prod-01 memory to 8GB
+x ! Reinstall windows on Thinkpad X1 Carbon
+x ! Split knowledge base out into separate pages
+x ! Restore vm-dns-prod-01 as VM 101
+x ! Update SSH Key Deployment script to use https
+x ! Setup XCPNG Host and test XO Lite
+x ! Deploy single nested PVE Node
+x ! Test Restore vm-app-prod-01 backup
+x ! Document simplified update management in misc docs section
+x ! Sell Thinkpad X1 Carbon
+x ! Lower my test VM IDs
+x ! Take another look at standard notes
+x ! Enable Trim on Mac Mini
+x ! Figure out HTTP > HTTPS redirect on Traefik
+x ! Wallpapers slideshow on TV
+x ! Find a nice web based tool for media browsing
+x ! Document the process for connecting the RDP via Cloudflare in Misc Docs
+x ! Give pebble keyboard a try on main machine
+x ! Migrate Repos Directory to Userprofile on all devices
+x ! Sell Macbook Pro
+x ! Have a look at Casa OS
+x ! Move my completed tasks from Msoft to do onto here
+x ! Move all scheduled tasks back to Apple Reminders App
+x ! Update documentation for productivity tools to include Notion, remove OneNote and To Do
+x ! Decomission RPI for use in other projects
+x ! Epichouse Docker Image Project
+x ! Update both Windows PVE Templates
+x ! Migrate Tasks to Notion
+x ! Consider migrating to todo.txt (Onedrive/GIT)
+x ! Migrate to todo-txt
+x ! Deploy PHP IPAM Again @cancelled
+x ! Create DisplayFusion shortcut to paste internal domain name
+x 2024-05-30 ! Look at this
+x 2024-05-30 ! Test
+x 2024-05-30 ! GT omega chair
+x 2024-05-30 ! Document the fking awesome web deployment workflows
+x 2024-05-30 ! Test Task
