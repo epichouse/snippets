@@ -1,20 +1,22 @@
-# Microsoft Edge  
+# Keyboard Shortcuts
+
+## Microsoft Edge  
 Ctrl + Shift + T -- Reopen closed tab/windows  
 Ctrl + Shift + K -- Duplicate current tab  
 Alt + Shift + D -- Enable Dark Reader  
 
-VS Code:
-Ctrl + K then W -- Close all tabs
-Ctrl + Shift + E -- Explorer
-Ctrl + Shift + G -- Source Control
-Ctrl + J -- Hide Terminal Pane
-Ctrl + Shift + ' -- Open Terminal Pane
-Ctrl + Shift + V -- Open HTML Preview in new tab
-Ctrl + K V -- Open HTML Preview to the Side
-Ctrl + Shift + P -- Show Command Selector
-Ctrl + Shift + X -- Complete todo.txt task
-Ctrl + Shift + A -- Archive completed todo.txt tasks
-Ctrl + V -- Hide SideBar
+## VS Code:  
+Ctrl + K then W -- Close all tabs  
+Ctrl + Shift + E -- Explorer  
+Ctrl + Shift + G -- Source Control  
+Ctrl + J -- Hide Terminal Pane  
+Ctrl + Shift + ' -- Open Terminal Pane  
+Ctrl + Shift + V -- Open HTML Preview in new tab  
+Ctrl + K V -- Open HTML Preview to the Side  
+Ctrl + Shift + P -- Show Command Selector  
+Ctrl + Shift + X -- Complete todo.txt task  
+Ctrl + Shift + A -- Archive completed todo.txt tasks  
+Ctrl + V -- Hide SideBar  
 
-Display Fusion (Custom)
-Alt + Shift + S -- Swap top windows on dual displays
+## Display Fusion:  
+Alt + Shift + S -- Swap top windows on dual displays  
