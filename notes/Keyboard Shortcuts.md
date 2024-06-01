@@ -15,7 +15,7 @@ Ctrl + Shift + V -- Open HTML Preview in new tab
 Ctrl + K V -- Open HTML Preview to the Side  
 Ctrl + Shift + P -- Show Command Selector  
 Ctrl + Shift + X -- Complete todo.txt task  
-Ctrl + Shift + A -- Archive completed todo.txt tasks  
+Ctrl + Shift + Z -- Archive completed todo.txt tasks  
 Ctrl + V -- Hide SideBar  
 
 ## Display Fusion:  
