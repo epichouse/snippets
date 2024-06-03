@@ -5,8 +5,14 @@ This repository is at the center of my HomeLab and other technology projects and
 
 ### Contents
 - Various common notes and keyboard shortcuts
+    - Docker Inventory
+    - Advanced Keyboard Shortcuts
+    - Quick References
 - My Home Network IP Address Management
-- Code/Command examples for the technologies listed below:
+    - Management Network
+    - Client Network
+    - Lab Network
+- Code/Command examples
     - Bash
     - Powershell
     - Docker Compose
