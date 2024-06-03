@@ -17,6 +17,8 @@ Ctrl + Shift + P -- Show Command Selector
 Ctrl + Shift + X -- Complete todo.txt task  
 Ctrl + Shift + Z -- Archive completed todo.txt tasks  
 Ctrl + V -- Hide SideBar  
+Ctrl + Shift + K -- Delete Current Line
+Ctrl + L -- Select Current Line
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  
