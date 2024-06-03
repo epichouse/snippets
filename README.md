@@ -4,7 +4,6 @@
 This repository is at the center of my HomeLab and other technology projects and work. It is the central store for frequently used HomeLab notes, in addition to all of the commands, script examples and other code I may need to make use of when working on my HomeLab, a script or other tech projects.
 
 ### Contents
-Within this repo you will find the following:
 - Various common notes and keyboard shortcuts
 - My Home Network IP Address Management
 - Code/Command examples for the technologies listed below:
