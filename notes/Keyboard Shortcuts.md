@@ -24,3 +24,6 @@ Ctrl + Shift + P -- Git Commit
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  
+
+## PowerToys
+Windows + Shift + C -- Open Colour Picker
