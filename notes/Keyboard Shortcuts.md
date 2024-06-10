@@ -21,6 +21,8 @@ Ctrl + Shift + K -- Delete Current Line
 Ctrl + L -- Select Current Line
 Ctrl + Shift + C -- Autocomplete Git Commit Message
 Ctrl + Shift + P -- Git Commit
+Ctrl + Shift + N D -- New Directory
+Ctrl + Shift + N F -- New File
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  
