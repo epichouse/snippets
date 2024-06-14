@@ -8,7 +8,7 @@
 10.0.0.5    --  unifi-ap1  
 10.0.0.6    --  unifi-ap2  
 10.0.0.7    --  
-10.0.0.8    --  vm-awx-prod-01  
+10.0.0.8    --  
 10.0.0.9    --  srv-rpi-prod-01  
 10.0.0.10   --  srv-pve-prod-01  
 10.0.0.11   --  srv-pve-prod-01-idrac  
