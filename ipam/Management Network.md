@@ -29,6 +29,7 @@
 10.0.0.26   --  vm-act-prod-01  
 10.0.0.27   --  ubuntu-demo
 10.0.0.28   --  nas2
+10.0.0.29   --  vm-pbs-test-01
 
 
 ## DHCP Reservations:  
