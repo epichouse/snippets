@@ -14,9 +14,9 @@
 10.0.0.11   --  srv-pve-prod-01-idrac  
 10.0.0.12   --  srv-backup-prod  
 10.0.0.13   --  srv-backup-prod-idrac  
-10.0.0.14   --  zeus-ime
-10.0.0.15   --  zeus
-10.0.0.16   --  zeus-2
+10.0.0.14   --  srv-pve-prod-01-ime  
+10.0.0.15   --  
+10.0.0.16   --  
 10.0.0.17   --  
 10.0.0.18   --  
 10.0.0.19   --  
@@ -27,14 +27,14 @@
 10.0.0.24   --  vm-w11-prod-01  
 10.0.0.25   --  vm-cmk-prod-01
 10.0.0.26   --  vm-act-prod-01  
-10.0.0.27   --  ubuntu-demo
-10.0.0.28   --  nas2
+10.0.0.27   --  
+10.0.0.28   --  
 10.0.0.29   --  vm-pbs-test-01
 
 
 ## DHCP Reservations:  
-10.0.0.204  --  dan-desktop
-10.0.0.205  --  dan-mac
-10.0.0.206  --  dan-hp
-10.0.0.207  --  dan-hackmini
-10.0.0.208  --  dan-imac
+10.0.0.204  --  dan-desktop  
+10.0.0.205  --  dan-mac  
+10.0.0.206  --  dan-hp  
+10.0.0.207  --  dan-hackmini  
+10.0.0.208  --  dan-imac  
