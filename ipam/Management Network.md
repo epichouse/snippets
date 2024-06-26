@@ -33,8 +33,8 @@
 
 
 ## DHCP Reservations:  
-10.0.0.204  --  dan-desktop
-10.0.0.205  --  dan-mac
-10.0.0.206  --  dan-hp
-10.0.0.207  --  dan-hackmini
-10.0.0.208  --  dan-imac
+10.0.0.204  --  dan-desktop  
+10.0.0.205  --  dan-mac  
+10.0.0.206  --  dan-hp  
+10.0.0.207  --  dan-hackmini  
+10.0.0.208  --  dan-imac  
