@@ -15,8 +15,8 @@
 10.0.0.12   --  srv-backup-prod  
 10.0.0.13   --  srv-backup-prod-idrac  
 10.0.0.14   --  srv-pve-prod-01-ime  
-10.0.0.15   --  srv-backup-prod-01-ime
-10.0.0.16   --  srv-backup-prod-01
+10.0.0.15   --  srv-backup-prod-01
+10.0.0.16   --  srv-backup-prod-01-ime
 10.0.0.17   --  
 10.0.0.18   --  
 10.0.0.19   --  
