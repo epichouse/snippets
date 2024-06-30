@@ -3,7 +3,7 @@
 ## Static IP Addresses:  
 10.0.0.1    --  unifi-usg  
 10.0.0.2    --  vm-dns-prod-01  
-10.0.0.3    --  vm-dns-prod-02  
+10.0.0.3    --  
 10.0.0.4    --  unifi-switch  
 10.0.0.5    --  unifi-ap1  
 10.0.0.6    --  unifi-ap2  
