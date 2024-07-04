@@ -8,3 +8,4 @@ Implement Centralised Logging
 Change my password accross the board
 Update to Traefik 3
 Implement Rack Shelves
+Remove Storage Account secret from Terraform backend config using saved Reddit post
