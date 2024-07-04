@@ -2,3 +2,4 @@
 
 
 x 2024-07-04 017 This is a test
+x 2024-07-04 020 Install DBeaver and store installer in \\NAS\Software\Installers
