@@ -16,3 +16,5 @@
 014 Consider GIT Replication to Github to reduce possiblity of commit losses
 015 Create Ubuntu 24.04 cloud-init template @inprogress
 016 Fix Homepage icons and update services @inprogress
+017 Determine if todo-txt is a suitable task management solution @inprogress
+018 Swap 500GB SSD with a 1TB SSD in srv-pve-prod-01
