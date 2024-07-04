@@ -19,3 +19,4 @@
 017 Determine if todo-txt is a suitable task management solution @inprogress
 018 Swap 500GB SSD with a 1TB SSD in srv-pve-prod-01
 019 Come up with mobile solution for adding tasks (Potentially expose publicly for easy phone access?)
+020 Install DBeaver and store installer in \\NAS\Software\Installers
