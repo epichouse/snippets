@@ -27,6 +27,7 @@ Ctrl + T C -- Complete Task
 Ctrl + T A -- Move task to done.txt (Completed Archive)
 Ctrl + T B -- Move task to somday.txt (Backlog) 
 Ctrl + T T -- Move task to todo.txt (From Archive or Backlog)
+Ctrl + T D -- Complete and move to done.txt (Uses commands extension)
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  
