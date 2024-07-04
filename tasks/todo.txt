@@ -1,0 +1,26 @@
+- Normal Tasks
+016 - Fix Homepage icons and update services @inprogress
+015 - Create Ubuntu 24.04 cloud-init template @inprogress
+014 - Migrate media into iCloud & OneDrive @inprogress
+013 - Consider GIT Replication to Github to reduce possiblity of commit losses
+012 - Compress Plex Media with Handbrake if possible without loosing quality
+011 - Figure out shrinking scripts git repo without loosing commit history
+010 - Fix NAS NFS Mounts on servers, script a mounting technique rather than 
+009 - Get Optiplex 9010's listed on eBay or similar
+008 - Find solution to WSL DNS Issues
+007 - Learn about Ansible roles
+006 - Deploy and instance of AWX
+005 - Come up with more Ansible uses and projects
+004 - Reddit post around Bind DNS Usage
+003 - Configure test Nextcloud instance
+002 - Learn about managing other user's crontabs and document
+001 - Deploy a Kubernetes environment
+
+- Rainy Day Tasks (Backlog)
+! Explore Tailscale
+! Find a solution to get letsencrypt using Cloudflare DNS
+! Plex Music Library
+! Techy tiktok of todo.txt
+! Implement Centralised Logging
+! Change my password accross the board
+! Update to Traefik 3
