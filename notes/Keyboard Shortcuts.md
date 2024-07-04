@@ -21,6 +21,7 @@ Ctrl + Shift + C -- Autocomplete Git Commit Message
 Ctrl + Shift + P -- Git Commit
 Ctrl + Shift + N D -- New Directory
 Ctrl + Shift + N F -- New File
+Ctrl + Shift + T G -- Open Source Control, AutoGenerate Commit Message, Commit (Commands Extension)
 
 ## VS Code - TodoTXT:
 Ctrl + T C -- Complete Task
