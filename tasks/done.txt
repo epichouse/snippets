@@ -1,2 +1,5 @@
+- Completed Tasks
+
 x 2024-07-04 Deploy the world
 x 2024-07-04 005 Migrate infra to the cloud @inprogress
+x 2024-07-04 ! Test

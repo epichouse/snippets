@@ -1,18 +1,17 @@
-- Normal Tasks
-
-! Fix Homepage icons and update services @inprogress
-! Create Ubuntu 24.04 cloud-init template @inprogress
-! Migrate media into iCloud & OneDrive @inprogress
-! Consider GIT Replication to Github to reduce possiblity of commit losses
-! Compress Plex Media with Handbrake if possible without loosing quality
-! Figure out shrinking scripts git repo without loosing commit history
-! Fix NAS NFS Mounts on servers, script a mounting technique rather than 
-! Get Optiplex 9010's listed on eBay or similar
-! Find solution to WSL DNS Issues
-! Learn about Ansible roles
-! Deploy and instance of AWX
-! Come up with more Ansible uses and projects
-! Reddit post around Bind DNS Usage
+- Normal Tasks (Oldest First)
+! Deploy a Kubernetes environment
 ! Configure test Nextcloud instance
 ! Learn about managing other user's crontabs and document
-! Deploy a Kubernetes environment
+! Reddit post around Bind DNS Usage
+! Come up with more Ansible uses and projects
+! Deploy and instance of AWX
+! Learn about Ansible roles
+! Find solution to WSL DNS Issues
+! Get Optiplex 9010's listed on eBay or similar
+! Fix NAS NFS Mounts on servers, script a mounting technique rather than 
+! Figure out shrinking scripts git repo without loosing commit history
+! Compress Plex Media with Handbrake if possible without loosing quality
+! Migrate media into iCloud & OneDrive @inprogress
+! Consider GIT Replication to Github to reduce possiblity of commit losses
+! Create Ubuntu 24.04 cloud-init template @inprogress
+! Fix Homepage icons and update services @inprogress

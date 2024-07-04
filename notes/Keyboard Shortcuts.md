@@ -26,6 +26,7 @@ Ctrl + Shift + N F -- New File
 Ctrl + T C -- Complete Task
 Ctrl + T A -- Move task to done.txt (Completed Archive)
 Ctrl + T B -- Move task to somday.txt (Backlog) 
+Ctrl + T T -- Move task to todo.txt (From Archive or Backlog)
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  

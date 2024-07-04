@@ -1,6 +1,5 @@
 - Rainy Day Tasks (Backlog)
 
-! Backlog Test
 ! Explore Tailscale
 ! Find a solution to get letsencrypt using Cloudflare DNS
 ! Plex Music Library
@@ -8,3 +7,4 @@
 ! Implement Centralised Logging
 ! Change my password accross the board
 ! Update to Traefik 3
+! Implement Rack Shelves
