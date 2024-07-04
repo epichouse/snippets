@@ -14,8 +14,6 @@ Ctrl + Shift + ' -- Open Terminal Pane
 Ctrl + Shift + V -- Open HTML Preview in new tab  
 Ctrl + K V -- Open HTML Preview to the Side  
 Ctrl + Shift + P -- Show Command Selector  
-Ctrl + Shift + X -- Complete todo.txt task  
-Ctrl + Shift + Z -- Archive completed todo.txt tasks  
 Ctrl + V -- Hide SideBar  
 Ctrl + Shift + K -- Delete Current Line
 Ctrl + L -- Select Current Line
@@ -23,6 +21,11 @@ Ctrl + Shift + C -- Autocomplete Git Commit Message
 Ctrl + Shift + P -- Git Commit
 Ctrl + Shift + N D -- New Directory
 Ctrl + Shift + N F -- New File
+
+## VS Code - TodoTXT:
+Ctrl + T C -- Complete Task
+Ctrl + T A -- Move task to done.txt (Completed Archive)
+Ctrl + T B -- Move task to somday.txt (Backlog) 
 
 ## Display Fusion:  
 Alt + Shift + S -- Swap top windows on dual displays  
