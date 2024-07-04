@@ -18,3 +18,4 @@
 016 Fix Homepage icons and update services @inprogress
 017 Determine if todo-txt is a suitable task management solution @inprogress
 018 Swap 500GB SSD with a 1TB SSD in srv-pve-prod-01
+019 Come up with mobile solution for adding tasks
