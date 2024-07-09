@@ -1,0 +1,16 @@
+services:
+  databack:
+    image: databack/mysql-backup
+    restart: unless-stopped
+    user: root
+    networks:
+      - backend
+    environment:
+      - DB_SERVER=db
+      - DB_NAMES=gitea
+      - SINGLE_DATABASE=true
+      - DB_DUMP_TARGET=${SMB}/${ENV}/${COMPOSE_PROJECT_NAME}
+      - DB_USER=root
+      - DB_PASS=${MySQL_Password}
+      - SINGLE_DATABASE=true
+      - DB_DUMP_CRON=0 03 * * *
