@@ -2,7 +2,7 @@
 sudo df -h
 
 # Get top level folder sizes
-du -cha --max-depth=1 /
+du -cha --max-depth=1 ./
 
 # All sub folders and files
 du -h /docker
