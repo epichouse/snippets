@@ -1,0 +1,12 @@
+Migrate all data to local dir on Proxmox (No PCIE Passthrough)
+ISOs made available to Proxmox via bind mounted directory (No network bandwidth used, OS installs will be full drive speed)
+LXC container with host path mounted to make data available to network clients via NFS + SMB (Ubuntu 22.04 lts LXC with config deployed via Ansible?)
+
+Once above is complete and tested.
+Backup server to run Proxmox Backup Server
+RSnapshot to run locally or in Docker container (Probably Docker - I love Docker lol)
+RSnapshot to backup NAS Data + Docker Hosts
+RClone used to backup all RSnapshot backups to either BackBlaze or OneDrive (Need for offsite VM Backups TBD)
+
+Once complete, I will have more resources available on both servers, not unnecesarily using ZFS with single disks.
+VM Backups will be deduplicated so more can be kept. File level restores from VM backups for non rsnapshot backed up hosts.
