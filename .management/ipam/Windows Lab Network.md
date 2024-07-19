@@ -1,7 +1,0 @@
-# Windows Lab Network IP Addressing
-
-## Static IP Addresses:  
-10.0.0.1    --  unifi-usg  
-10.0.0.2    --  vm-dc-test-01
-10.0.0.3    --  
-10.0.0.4    --  vm-fs-test-01
