@@ -12,9 +12,9 @@
 10.0.0.9    --  srv-rpi-prod-01  
 10.0.0.10   --  srv-pve-prod-01  
 10.0.0.11   --  srv-pve-prod-01-idrac  
-10.0.0.12   --  srv-lab-test-ime
+10.0.0.12   --  lab-server-ime
 10.0.0.13   --  srv-backup-prod-idrac  
-10.0.0.14   --  
+10.0.0.14   --  lab-server
 10.0.0.15   --  srv-pbs-prod-01
 10.0.0.16   --  srv-pbs-prod-01-ime
 10.0.0.17   --  computestick
