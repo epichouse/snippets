@@ -27,7 +27,7 @@ IP Address, Hostname, Notes
 10.0.0.26,vm-act-prod-01,
 10.0.0.27,vm-act-prod-02,
 10.0.0.28,,
-10.0.0.29,,
+10.0.0.29,vm-xoa-test-01,
 ,,
 
 10.0.0.204,dan-desktop,DHCP Reservation
