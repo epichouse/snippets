@@ -12,7 +12,7 @@ IP Address, Hostname, Notes
 10.0.0.11,srv-pve-prod-01-idrac,
 10.0.0.12,lab-server-ime,
 10.0.0.13,srv-backup-prod-idrac,
-10.0.0.14,lab-server,
+10.0.0.14,srv-xcp-test-01,
 10.0.0.15,srv-pbs-prod-01,
 10.0.0.16,srv-pbs-prod-01-ime,
 10.0.0.17,computestick,
