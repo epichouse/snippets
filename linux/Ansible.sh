@@ -14,3 +14,8 @@ ansible global -m ping
 
 # execute the command "echo test" on all hosts in group global
 ansible global -a "echo test"
+
+
+
+## ad hoc example to remove a file on all hosts
+ansible linux -m ansible.builtin.file -a "dest=/etc/apt/sources.list.d/netdata-edge.list state=absent" --become --ask-vault-pass
