@@ -36,3 +36,8 @@ Alt + Shift + S -- Swap top windows on dual displays
 
 ## PowerToys
 Windows + Shift + C -- Open Colour Picker
+
+## Gmail
+E -- Archive Email
+Hashtag -- Delete Email
+R -- Reply

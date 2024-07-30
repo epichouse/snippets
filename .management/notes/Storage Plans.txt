@@ -1,8 +1,0 @@
-- Backup Server
-Keep 256GB Boot Drive (swap for 500GB at later date)
-Either 4TB or 5TB 2.5 inch HDD so I can keep all storage internal.
-
-- Proxmox Server
-New Proxmox Server Optiplex 7060 Micro
-1TB NVME Boot Drive + VM Storage Drive
-1TB Sata Data Storage Drive
