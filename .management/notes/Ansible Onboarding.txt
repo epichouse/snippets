@@ -1,4 +1,0 @@
-# This text file contains my Ansible server managemnt onboarding process.
-
-- Add new host to inventory.yml in Ansible repo
-- This will automatically trigger my configuration playbook, therefore configuring the server approprietely
