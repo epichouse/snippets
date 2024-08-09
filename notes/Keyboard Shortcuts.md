@@ -23,6 +23,7 @@ Ctrl + Shift + N D -- New Directory
 Ctrl + Shift + N F -- New File
 Ctrl + Shift + T G -- Open Source Control, AutoGenerate Commit Message, Commit (Commands Extension)
 Ctrl + Shift + T P -- GIT Pull
+Ctrl + E -- Find File/Dir
 
 ## VS Code - TodoTXT:
 Ctrl + T C -- Complete Task
