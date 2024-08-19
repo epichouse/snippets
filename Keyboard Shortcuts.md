@@ -9,7 +9,6 @@ Alt + Shift + D -- Enable Dark Reader
 Ctrl + K then W -- Close all tabs  
 Ctrl + Shift + E -- Explorer  
 Ctrl + Shift + G -- Source Control  
-Ctrl + J -- Hide Terminal Pane  
 Ctrl + Shift + ' -- Open Terminal Pane  
 Ctrl + Shift + V -- Open HTML Preview in new tab  
 Ctrl + K V -- Open HTML Preview to the Side  
@@ -24,6 +23,9 @@ Ctrl + Shift + N F -- New File
 Ctrl + Shift + T G -- Open Source Control, AutoGenerate Commit Message, Commit (Commands Extension)
 Ctrl + Shift + T P -- GIT Pull
 Ctrl + E -- Find File/Dir
+Ctrl + ' -- Toggle focus between editor and terminal  
+Ctrl + J -- Hide Terminal Pane  
+
 
 ## VS Code - TodoTXT:
 Ctrl + T C -- Complete Task
