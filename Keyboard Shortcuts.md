@@ -7,6 +7,7 @@ Alt + Shift + D -- Enable Dark Reader
 
 ## VS Code:  
 Ctrl + K then W -- Close all tabs  
+Ctrl + K then t -- Collapse folder in explorer
 Ctrl + Shift + E -- Explorer  
 Ctrl + Shift + G -- Source Control  
 Ctrl + Shift + ' -- Open Terminal Pane  
@@ -25,7 +26,6 @@ Ctrl + Shift + T P -- GIT Pull
 Ctrl + E -- Find File/Dir
 Ctrl + ' -- Toggle focus between editor and terminal  
 Ctrl + J -- Hide Terminal Pane  
-
 
 ## VS Code - TodoTXT:
 Ctrl + T C -- Complete Task
