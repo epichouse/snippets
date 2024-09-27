@@ -11,3 +11,6 @@ nas:/mnt/FastPool/Software /mnt/nas/software  nfs      defaults    0       0
 
 # Mount a directory into another directory on the same machine (root:users ownership in this base)
 /mnt/pve/local-sata/data/software/ISOs /mnt/pve/local-sata/template/iso none defaults,bind 0 100
+
+# Data disk
+/dev/sdb1 /mnt/data ext4 defaults 0 0
