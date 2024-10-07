@@ -7,6 +7,7 @@ Alt + Shift + D -- Enable Dark Reader
 
 ## VS Code:  
 Ctrl + K then W -- Close all tabs  
+Ctrl + K then o -- Close all other tabs than current  
 Ctrl + K then t -- Collapse folder in explorer
 Ctrl + Shift + E -- Explorer  
 Ctrl + Shift + G -- Source Control  
